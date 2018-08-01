@@ -1,7 +1,6 @@
 import java.util.*;
 
-
-public class CollectionPractice {
+public class CollectionsExample {
 
     public static void main(String[] args) {
 
@@ -43,7 +42,7 @@ public class CollectionPractice {
 
 
 
-class Car implements  Comparator<Car>{
+class Car implements Comparator<Car> {
 
     @Override
     public int compare(Car o1, Car o2) {
@@ -52,9 +51,9 @@ class Car implements  Comparator<Car>{
             return 1;
 
         if(o1.getYearOfM() == o2.getYearOfM() && o1.getCompanyName().equals(o2.getCompanyName()))
-             return  0;
+            return  0;
         else if (o1.getYearOfM() < o2.getYearOfM())
-             return  -1;
+            return  -1;
         else
             return 1;
     }
@@ -103,4 +102,5 @@ class Car implements  Comparator<Car>{
 
 
     }
+
 }
