@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.Stack;
 
 public class StackCollection {
@@ -5,7 +7,7 @@ public class StackCollection {
         Stack<Object> stack = new Stack();
         stack.push(1);
         stack.push("string");
-        System.out.println( stack.peek());
-        System.out.println(  stack.get(stack.size()-2));
+        System.out.println(stack.peek());
+        System.out.println(stack.get(stack.size() - 2));
     }
 }
