@@ -87,7 +87,7 @@ class Car implements Comparator<Car> {
 
         if (o1.getCompanyName().equals(o2.getCompanyName()) && o1.getYearOfM() == o2.getYearOfM())// removing duplicate objects
             return 0;
-        else if (o1.getCompanyName().compareTo(o2.getCompanyName()) < 0) // sort based on the filed used in the custom object
+        else if (o1.getCompanyName().compareTo(o2.getCompanyName()) < 0) // sort based on the field used in the custom object
             return -1;
         else
             return 1;

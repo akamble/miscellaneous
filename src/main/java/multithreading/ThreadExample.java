@@ -1,3 +1,5 @@
+package multithreading;
+
 class ProducerAndConsumer {
 
      void produce() throws InterruptedException {

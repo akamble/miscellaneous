@@ -1,23 +1,14 @@
-import com.here.nds.hdlm.qa.cmp.core.util.BinaryNdsFileType;
-import com.here.nds.hdlm.qa.cmp.run.Launcher;
+package ioprocessing;
 
 import java.io.File;
 import java.io.FilenameFilter;
 
-
-
-public class ComparisonExample {
-
-
-
-
+public class FileFilterExample {
 
     public static void main(String[] args) {
 
         File blobFolder = new File("/Users/akamble/Documents/BlobData/");
         File[] listOfBlobFiles = blobFolder.listFiles(new FileFilter());
-
-        Launcher.CompareScope compareScope = null;
 
         for (File file : listOfBlobFiles) {
             if (file.isFile()) {
@@ -25,12 +16,12 @@ public class ComparisonExample {
 
                 if (file.getName().equals("guidance")){
                     byte[] bytesArray = new byte[(int) file.length()];
-                    compareScope.addPayload(BinaryNdsFileType.guidanceData,bytesArray);
+                    //add business logic
                 }
 
-                if (file.getName().equals("guidance")){
+                if (file.getName().equals("route")){
                     byte[] bytesArray = new byte[(int) file.length()];
-                    compareScope.addPayload(BinaryNdsFileType.guidanceData,bytesArray);
+                    //add business logic
                 }
 
             }
