@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
      In this coding challenge you will be assessed on your ability to solve problems, the cleanliness of your code, and your testing skills.
 
 The Challenge:
-     Using Java, write a console application that takes a string as a command line parameter, performs the calculation defined below, and writes the output to the console.
+     Using Java, write defaultInterfaceMethod2 console application that takes defaultInterfaceMethod2 string as defaultInterfaceMethod2 command line parameter, performs the calculation defined below, and writes the output to the console.
 Include the appropriate unit tests.
 
 For example

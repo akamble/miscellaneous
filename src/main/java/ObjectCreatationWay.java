@@ -1,6 +1,6 @@
 
 /*
-* In java, we can create a object in 5 different ways
+* In java, we can create defaultInterfaceMethod2 object in 5 different ways
 *
 * 1. Using new Keyword  --> constructor gets called
 * 2. Using newInstance() method if Class -->
